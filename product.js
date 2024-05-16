@@ -33,9 +33,9 @@ var search = document.getElementById("search");
 var productlist = document.querySelectorAll("#product_search > div");
 
 search.addEventListener("keyup", function(event) {
-    console.log(event);
+    // console.log(event);
     var enteredValue = event.target.value.toUpperCase();
-    console.log(enteredValue.indexOf());
+    // console.log(enteredValue.indexOf("a"));
 
     for (var count = 0; count < productlist.length; count++) {
         // console.log(productlist);
